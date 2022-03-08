@@ -21,3 +21,11 @@ Route::post('hello','HelloController@post');
 // 実習問題用
 // 2-1
 Route::get('jissyu2','JissyuController@index');
+
+// 3-1
+Route::get('jissyu3', 'Jissyu3_1Controller@index');
+Route::post('jissyu3', 'Jissyu3_1Controller@post');
+
+// 3-2
+Route::get('jissyu4', 'Jissyu3_2Controller@index');
+Route::post('jissyu4', 'Jissyu3_2Controller@post');
