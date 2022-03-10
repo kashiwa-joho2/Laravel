@@ -18,10 +18,10 @@ class Jissyu3_2Controller extends Controller
     {
         $data = [
             'name'=>$request->name,
-            'email'=>$request->email,
+            'mail'=>$request->mail,
             'age'=>$request->age
         ];
-        return view('jissyu3_2.output', $data);
+        return view('jissyu3_2.output', ['data'=>$data]);
     }
 
 }

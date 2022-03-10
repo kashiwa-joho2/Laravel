@@ -28,6 +28,6 @@ class HelloServiceProvider extends ServiceProvider
             'hello.index',function($view){
                 $view->with('view_message','composer message!');
             }
-        );
+        ); 
     }
 }
